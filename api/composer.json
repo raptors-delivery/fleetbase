@@ -40,7 +40,12 @@
         {
             "type": "composer",
             "url": "https://registry.fleetbase.io"
+        },
+        {
+            "type": "path",
+            "url": "../../customer-portal/"
         }
+
     ],
     "autoload": {
         "psr-4": {
@@ -94,7 +99,7 @@
         }
     },
     "config": {
-        "secure-http": false, 
+        "secure-http": false,
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,

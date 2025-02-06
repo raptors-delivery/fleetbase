@@ -16,6 +16,9 @@ importers:
       '@ember/legacy-built-in-components':
         specifier: ^0.4.2
         version: 0.4.2(ember-source@5.4.1(@babel/core@7.26.7)(@glimmer/component@1.1.2(@babel/core@7.26.7))(rsvp@4.8.5)(webpack@5.97.1))
+      '@fleetbase/customer-portal-engine':
+        specifier: link:../../customer-portal
+        version: link:../../customer-portal
       '@fleetbase/dev-engine':
         specifier: ^0.2.9
         version: 0.2.9(@ember/string@3.1.1)(@ember/test-helpers@3.3.1(@babel/core@7.26.7)(ember-source@5.4.1(@babel/core@7.26.7)(@glimmer/component@1.1.2(@babel/core@7.26.7))(rsvp@4.8.5)(webpack@5.97.1))(webpack@5.97.1))(@glimmer/component@1.1.2(@babel/core@7.26.7))(@glimmer/tracking@1.1.2)(ember-engines@0.9.0(@ember/legacy-built-in-components@0.4.2(ember-source@5.4.1(@babel/core@7.26.7)(@glimmer/component@1.1.2(@babel/core@7.26.7))(rsvp@4.8.5)(webpack@5.97.1)))(ember-source@5.4.1(@babel/core@7.26.7)(@glimmer/component@1.1.2(@babel/core@7.26.7))(rsvp@4.8.5)(webpack@5.97.1)))(ember-resolver@11.0.1(ember-source@5.4.1(@babel/core@7.26.7)(@glimmer/component@1.1.2(@babel/core@7.26.7))(rsvp@4.8.5)(webpack@5.97.1)))(ember-source@5.4.1(@babel/core@7.26.7)(@glimmer/component@1.1.2(@babel/core@7.26.7))(rsvp@4.8.5)(webpack@5.97.1))(eslint@8.57.1)(postcss@8.5.1)(rollup@2.79.2)(tracked-built-ins@3.4.0(@babel/core@7.26.7))(webpack@5.97.1)

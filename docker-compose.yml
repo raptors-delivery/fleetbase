@@ -36,16 +36,16 @@ services:
       CACHE_URL: tcp://cache
       REDIS_URL: tcp://cache
 
-  console:
-    build:
-      context: .
-      dockerfile: console/Dockerfile.server-build
-      args:
-        ENVIRONMENT: development
-    ports:
-      - "4200:4200"
-    volumes:
-      - console-build:/console
+  # console:
+  #   build:
+  #     context: .
+  #     dockerfile: console/Dockerfile.server-build
+  #     args:
+  #       ENVIRONMENT: development
+  #   ports:
+  #     - "4200:4200"
+  #   volumes:
+  #     - console-build:/console
 
   application:
     build:
@@ -56,7 +56,7 @@ services:
         ENVIRONMENT: development
         GITHUB_AUTH_KEY: ${GITHUB_AUTH_KEY}
     volumes:
-      - console-build:/fleetbase/console
+      - ./console:/fleetbase/console
     environment:
       ENVIRONMENT: development
       DATABASE_URL: "mysql://root@database/fleetbase"
