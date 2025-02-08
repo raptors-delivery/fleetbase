@@ -23,5 +23,9 @@ export default {
             style: 'currency',
             currency: 'USD',
         },
+        EGP: {
+            style: 'currency',
+            currency: 'EGP',
+        },
     },
 };

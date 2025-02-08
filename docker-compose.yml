@@ -1,6 +1,8 @@
 services:
   cache:
     image: redis:4-alpine
+    ports:
+      - "6379:6379"
 
   database:
     image: mysql:8.0-oracle
@@ -47,45 +49,45 @@ services:
   #   volumes:
   #     - console-build:/console
 
-  application:
-    build:
-      context: .
-      dockerfile: docker/Dockerfile
-      target: app-dev
-      args:
-        ENVIRONMENT: development
-        GITHUB_AUTH_KEY: ${GITHUB_AUTH_KEY}
-    volumes:
-      - ./console:/fleetbase/console
-    environment:
-      ENVIRONMENT: development
-      DATABASE_URL: "mysql://root@database/fleetbase"
-      QUEUE_CONNECTION: redis
-      CACHE_DRIVER: redis
-      CACHE_PATH: /fleetbase/api/storage/framework/cache
-      CACHE_URL: tcp://cache
-      REDIS_URL: tcp://cache
-      SESSION_DOMAIN: localhost
-      BROADCAST_DRIVER: socketcluster
-      MAIL_FROM_NAME: Fleetbase
-      APP_NAME: Fleetbase
-      LOG_CHANNEL: daily
-      REGISTRY_HOST: https://registry.fleetbase.io
-      REGISTRY_PREINSTALLED_EXTENSIONS: 'true'
-      OSRM_HOST: https://router.project-osrm.org
-    depends_on:
-      - database
-      - cache
-      - queue
-
-  httpd:
-    build:
-      context: .
-      dockerfile: docker/httpd/Dockerfile
-    ports:
-      - "8000:80"
-    depends_on:
-      - application
+  # application:
+  #   build:
+  #     context: .
+  #     dockerfile: docker/Dockerfile
+  #     target: app-dev
+  #     args:
+  #       ENVIRONMENT: development
+  #       GITHUB_AUTH_KEY: ${GITHUB_AUTH_KEY}
+  #   volumes:
+  #     - ./console:/fleetbase/console
+  #   environment:
+  #     ENVIRONMENT: development
+  #     DATABASE_URL: "mysql://root@database/fleetbase"
+  #     QUEUE_CONNECTION: redis
+  #     CACHE_DRIVER: redis
+  #     CACHE_PATH: /fleetbase/api/storage/framework/cache
+  #     CACHE_URL: tcp://cache
+  #     REDIS_URL: tcp://cache
+  #     SESSION_DOMAIN: localhost
+  #     BROADCAST_DRIVER: socketcluster
+  #     MAIL_FROM_NAME: Fleetbase
+  #     APP_NAME: Fleetbase
+  #     LOG_CHANNEL: daily
+  #     REGISTRY_HOST: https://registry.fleetbase.io
+  #     REGISTRY_PREINSTALLED_EXTENSIONS: 'true'
+  #     OSRM_HOST: https://router.project-osrm.org
+  #   depends_on:
+  #     - database
+  #     - cache
+  #     - queue
+  #
+  # httpd:
+  #   build:
+  #     context: .
+  #     dockerfile: docker/httpd/Dockerfile
+  #   ports:
+  #     - "8000:80"
+  #   depends_on:
+  #     - application
 
 volumes:
   console-build:

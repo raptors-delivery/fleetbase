@@ -12,11 +12,29 @@
         pkgs = import nixpkgs {
           inherit system overlays;
         };
-        phpPackages = pkgs.php83Packages;
-        php = pkgs.php83.buildEnv {
+        myphp = pkgs.php82;
+        geos = pkgs.callPackage ./nix/php/geos.nix {
+          inherit myphp;
+        };
+        php = myphp.buildEnv {
           extensions = ({ enabled, all }: enabled ++ (with all; [
             # Add More PHP Extensions Here
             xdebug
+            gd
+            redis
+            pdo
+            pdo_mysql
+            gmp
+            imagick
+            bcmath
+            opcache
+            intl
+            memcached
+            sockets
+            pcntl
+            zip
+            apcu
+            geos
           ]));
           extraConfig = ''
             date.timezone = "UTC"
@@ -35,9 +53,9 @@
             pkgs.pnpm
 
             php
-            phpPackages.composer
-            phpPackages.php-cs-fixer
-            phpPackages.phpstan
+            php.packages.composer
+            php.packages.php-cs-fixer
+            php.packages.phpstan
             pkgs.blade-formatter
             pkgs.laravel
             pkgs.phpactor
