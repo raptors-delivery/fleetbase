@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72af15f8f93af6a0087521e9e44a5683",
+    "content-hash": "3414eb06c40935ad77e508268f18bc34",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2491,8 +2491,8 @@
             "version": "0.0.6",
             "dist": {
                 "type": "path",
-                "url": "../../customer-portal",
-                "reference": "e3d2e69df76f36e5d3a55fe5c33afbbcaadcee04"
+                "url": "../packages/customer-portal",
+                "reference": "37fa28347e7df5a83298a6848e58b705826b1909"
             },
             "require": {
                 "fleetbase/core-api": "*",
@@ -2823,10 +2823,16 @@
         {
             "name": "fleetbase/storefront-api",
             "version": "0.3.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fleetbase/storefront.git",
+                "reference": "f7d373d74632327b7153b3c7ccf2196d81e80f88"
+            },
             "dist": {
-                "type": "path",
-                "url": "../packages/storefront",
-                "reference": "97fac99d13eec74972ad7b80a93e71a6fcfa9c58"
+                "type": "zip",
+                "url": "https://api.github.com/repos/fleetbase/storefront/zipball/f7d373d74632327b7153b3c7ccf2196d81e80f88",
+                "reference": "f7d373d74632327b7153b3c7ccf2196d81e80f88",
+                "shasum": ""
             },
             "require": {
                 "fleetbase/core-api": "*",
@@ -2858,8 +2864,8 @@
                     ]
                 },
                 "fleetbase": {
-                    "create-database": "storefront",
                     "order-config": "Fleetbase\\Storefront\\Support\\OrderConfig",
+                    "create-database": "storefront",
                     "sandbox-migrations": false
                 }
             },
@@ -2869,30 +2875,7 @@
                     "Fleetbase\\Storefront\\Seeders\\": "server/seeders/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Fleetbase\\Storefront\\Tests\\": "server/tests/"
-                }
-            },
-            "scripts": {
-                "lint": [
-                    "php-cs-fixer fix -v"
-                ],
-                "test:lint": [
-                    "php-cs-fixer fix -v --dry-run"
-                ],
-                "test:types": [
-                    "phpstan analyse --ansi --memory-limit=0"
-                ],
-                "test:unit": [
-                    "pest --colors=always"
-                ],
-                "test": [
-                    "@test:lint",
-                    "@test:types",
-                    "@test:unit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "AGPL-3.0-or-later"
             ],
@@ -2914,9 +2897,11 @@
                 "marketplace",
                 "storefront"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/fleetbase/storefront/issues",
+                "source": "https://github.com/fleetbase/storefront/tree/v0.3.25"
+            },
+            "time": "2025-02-04T15:21:03+00:00"
         },
         {
             "name": "fleetbase/twilio",
