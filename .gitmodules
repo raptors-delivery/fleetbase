@@ -1,37 +1,41 @@
 [submodule "packages/fleetops"]
 	path = packages/fleetops
-	url = git@github.com:fleetbase/fleetops.git
+	url = git@github.com:raptors-delivery/fleetops.git
+	branch = raptors
 [submodule "packages/storefront"]
 	path = packages/storefront
-	url = git@github.com:fleetbase/storefront.git
+	url = git@github.com:raptors-delivery/storefront.git
+	branch = main
 [submodule "packages/pallet"]
 	path = packages/pallet
-	url = git@github.com:fleetbase/pallet.git
+	url = git@github.com:raptors-delivery/pallet.git
+	branch = main
 [submodule "packages/core-api"]
 	path = packages/core-api
-	url = git@github.com:fleetbase/core-api.git
-	branch = main
+	url = git@github.com:raptors-delivery/core-api.git
+	branch = raptors
 [submodule "packages/ember-core"]
 	path = packages/ember-core
-	url = git@github.com:fleetbase/ember-core.git
+	url = git@github.com:raptors-delivery/ember-core.git
 	branch = main
 [submodule "packages/ember-ui"]
 	path = packages/ember-ui
-	url = git@github.com:fleetbase/ember-ui.git
+	url = git@github.com:raptors-delivery/ember-ui.git
 	branch = main
 [submodule "packages/iam-engine"]
 	path = packages/iam-engine
-	url = git@github.com:fleetbase/iam-engine.git
+	url = git@github.com:raptors-delivery/iam-engine.git
+	branch = main
 [submodule "packages/dev-engine"]
 	path = packages/dev-engine
-	url = git@github.com:fleetbase/dev-engine.git
+	url = git@github.com:raptors-delivery/dev-engine.git
 	branch = main
 [submodule "packages/fleetbase-extensions-indexer"]
 	path = packages/fleetbase-extensions-indexer
 	url = git@github.com:fleetbase/fleetbase-extensions-indexer.git
 [submodule "packages/fleetops-data"]
 	path = packages/fleetops-data
-	url = git@github.com:fleetbase/fleetops-data.git
+	url = git@github.com:raptors-delivery/fleetops-data.git
 	branch = main
 [submodule "docs"]
 	path = docs
@@ -41,4 +45,5 @@
 	url = git@github.com:fleetbase/registry-bridge.git
 [submodule "packages/ledger"]
 	path = packages/ledger
-	url = git@github.com:fleetbase/ledger.git
+	url = git@github.com:raptors-delivery/ledger.git
+	branch = main

@@ -45,8 +45,23 @@
         {
             "type": "path",
             "url": "../../customer-portal/"
+        },
+        {
+            "type": "path",
+            "url": "../packages/core-api/"
+        },
+        {
+            "type": "path",
+            "url": "../packages/fleetops"
+        },
+        {
+            "type": "path",
+            "url": "../packages/fleetops-data"
+        },
+        {
+            "type": "path",
+            "url": "../packages/storefront"
         }
-
     ],
     "autoload": {
         "psr-4": {
