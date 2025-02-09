@@ -47,3 +47,8 @@
 	path = packages/ledger
 	url = git@github.com:raptors-delivery/ledger.git
 	branch = main
+
+[submodule "packages/customer-portal"]
+	path = packages/customer-portal
+	url = git@github.com:raptors-delivery/customer-portal.git
+	branch = main
