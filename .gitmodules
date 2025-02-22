@@ -1,54 +1,62 @@
 [submodule "packages/fleetops"]
 	path = packages/fleetops
 	url = git@github.com:raptors-delivery/fleetops.git
-	branch = raptors
+	branch = main
+
 [submodule "packages/storefront"]
 	path = packages/storefront
 	url = git@github.com:raptors-delivery/storefront.git
-	branch = raptors
+	branch = main
+
 [submodule "packages/pallet"]
 	path = packages/pallet
 	url = git@github.com:raptors-delivery/pallet.git
 	branch = main
+
 [submodule "packages/core-api"]
 	path = packages/core-api
 	url = git@github.com:raptors-delivery/core-api.git
-	branch = raptors
+	branch = main
+
 [submodule "packages/ember-core"]
 	path = packages/ember-core
 	url = git@github.com:raptors-delivery/ember-core.git
-	branch = raptors
+	branch = main
+
 [submodule "packages/ember-ui"]
 	path = packages/ember-ui
 	url = git@github.com:raptors-delivery/ember-ui.git
-	branch = raptors
+	branch = main
+
 [submodule "packages/iam-engine"]
 	path = packages/iam-engine
 	url = git@github.com:raptors-delivery/iam-engine.git
 	branch = main
+
 [submodule "packages/dev-engine"]
 	path = packages/dev-engine
 	url = git@github.com:raptors-delivery/dev-engine.git
 	branch = main
+
 [submodule "packages/fleetbase-extensions-indexer"]
 	path = packages/fleetbase-extensions-indexer
 	url = git@github.com:fleetbase/fleetbase-extensions-indexer.git
+
 [submodule "packages/fleetops-data"]
 	path = packages/fleetops-data
 	url = git@github.com:raptors-delivery/fleetops-data.git
-	branch = raptors
+	branch = main
+
 [submodule "docs"]
 	path = docs
 	url = git@github.com:fleetbase/docs.git
+
 [submodule "packages/registry-bridge"]
 	path = packages/registry-bridge
-	url = git@github.com:fleetbase/registry-bridge.git
+	url = git@github.com:raptors-delivery/registry-bridge.git
+	branch = main
+
 [submodule "packages/ledger"]
 	path = packages/ledger
 	url = git@github.com:raptors-delivery/ledger.git
-	branch = main
-
-[submodule "packages/customer-portal"]
-	path = packages/customer-portal
-	url = git@github.com:raptors-delivery/customer-portal.git
 	branch = main
