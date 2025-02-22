@@ -3,16 +3,6 @@
 	url = git@github.com:raptors-delivery/fleetops.git
 	branch = main
 
-[submodule "packages/storefront"]
-	path = packages/storefront
-	url = git@github.com:raptors-delivery/storefront.git
-	branch = main
-
-[submodule "packages/pallet"]
-	path = packages/pallet
-	url = git@github.com:raptors-delivery/pallet.git
-	branch = main
-
 [submodule "packages/core-api"]
 	path = packages/core-api
 	url = git@github.com:raptors-delivery/core-api.git
@@ -38,10 +28,6 @@
 	url = git@github.com:raptors-delivery/dev-engine.git
 	branch = main
 
-[submodule "packages/fleetbase-extensions-indexer"]
-	path = packages/fleetbase-extensions-indexer
-	url = git@github.com:fleetbase/fleetbase-extensions-indexer.git
-
 [submodule "packages/fleetops-data"]
 	path = packages/fleetops-data
 	url = git@github.com:raptors-delivery/fleetops-data.git
@@ -50,13 +36,3 @@
 [submodule "docs"]
 	path = docs
 	url = git@github.com:fleetbase/docs.git
-
-[submodule "packages/registry-bridge"]
-	path = packages/registry-bridge
-	url = git@github.com:raptors-delivery/registry-bridge.git
-	branch = main
-
-[submodule "packages/ledger"]
-	path = packages/ledger
-	url = git@github.com:raptors-delivery/ledger.git
-	branch = main
