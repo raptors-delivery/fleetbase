@@ -29,16 +29,16 @@
     },
     "dependencies": {
         "@ember/legacy-built-in-components": "^0.4.2",
-        "@fleetbase/dev-engine": "^0.2.9",
-        "@fleetbase/ember-core": "latest",
-        "@fleetbase/ember-ui": "latest",
-        "@fleetbase/fleetops-data": "latest",
-        "@fleetbase/fleetops-engine": "^0.5.19",
-        "@fleetbase/iam-engine": "^0.1.3",
+        "@fleetbase/dev-engine": "workspace:*",
+        "@fleetbase/ember-core": "workspace:*",
+        "@fleetbase/ember-ui": "workspace:*",
+        "@fleetbase/fleetops-data": "workspace:*",
+        "@fleetbase/fleetops-engine": "workspace:*",
+        "@fleetbase/iam-engine": "workspace:*",
         "@fleetbase/leaflet-routing-machine": "^3.2.16",
         "@fleetbase/registry-bridge-engine": "^0.0.18",
-        "@fleetbase/storefront-engine": "^0.3.25",
-        "@fleetbase/customer-portal-engine": "link:../../customer-portal",
+        "@fleetbase/storefront-engine": "workspace:*",
+        "@fleetbase/customer-portal-engine": "workspace:*",
         "@fortawesome/ember-fontawesome": "^2.0.0",
         "ember-changeset": "^4.1.2",
         "ember-changeset-validations": "^4.1.1",
@@ -57,10 +57,10 @@
         "postcss-nth-list": "^1.0.2"
     },
     "devDependencies": {
-        "@babel/core": "^7.25.2",
-        "@babel/eslint-parser": "^7.25.1",
-        "@babel/plugin-proposal-decorators": "^7.24.7",
-        "@ember/optional-features": "^2.1.0",
+        "@babel/core": "^7.26.7",
+        "@babel/eslint-parser": "^7.26.5",
+        "@babel/plugin-proposal-decorators": "^7.25.9",
+        "@ember/optional-features": "^2.2.0",
         "@ember/string": "^3.1.1",
         "@ember/test-helpers": "^3.3.1",
         "@fleetbase/intl-lint": "^0.0.1",
@@ -69,19 +69,19 @@
         "@fortawesome/free-solid-svg-icons": "6.4.0",
         "@glimmer/component": "^1.1.2",
         "@glimmer/tracking": "^1.1.2",
-        "@tailwindcss/forms": "^0.5.7",
+        "@tailwindcss/forms": "^0.5.10",
         "autoprefixer": "^10.4.20",
         "broccoli-asset-rev": "^3.0.0",
         "broccoli-funnel": "^3.0.8",
         "concurrently": "^8.2.2",
         "date-fns": "^2.30.0",
         "dragula": "^3.7.3",
-        "ember-auto-import": "^2.7.4",
+        "ember-auto-import": "^2.10.0",
         "ember-cli": "~5.4.2",
         "ember-cli-app-version": "^6.0.1",
         "ember-cli-babel": "^8.2.0",
         "ember-cli-clean-css": "^3.0.0",
-        "ember-cli-dependency-checker": "^3.3.2",
+        "ember-cli-dependency-checker": "^3.3.3",
         "ember-cli-dotenv": "^3.1.0",
         "ember-cli-htmlbars": "^6.3.0",
         "ember-cli-inject-live-reload": "^2.1.0",
@@ -95,53 +95,46 @@
         "ember-load-initializers": "^2.1.2",
         "ember-modifier": "^4.2.0",
         "ember-page-title": "^8.2.3",
-        "ember-qunit": "^8.1.0",
+        "ember-qunit": "^8.1.1",
         "ember-resolver": "^11.0.1",
         "ember-responsive": "^5.0.0",
         "ember-source": "~5.4.1",
         "ember-template-lint": "^5.13.0",
         "ember-wormhole": "^0.6.0",
-        "eslint": "^8.57.0",
+        "eslint": "^8.57.1",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-ember": "^11.12.0",
         "eslint-plugin-n": "^16.6.2",
-        "eslint-plugin-prettier": "^5.2.1",
+        "eslint-plugin-prettier": "^5.2.3",
         "eslint-plugin-qunit": "^8.1.2",
-        "fast-glob": "^3.3.2",
+        "fast-glob": "^3.3.3",
         "fs": "0.0.1-security",
         "inter-ui": "^3.19.3",
         "loader.js": "^4.7.0",
         "normalize.css": "^8.0.1",
-        "postcss": "^8.4.41",
+        "postcss": "^8.5.1",
         "postcss-conditionals-renewed": "^1.0.0",
         "postcss-each": "^1.1.0",
         "postcss-import": "14.1.0",
         "postcss-mixins": "^9.0.4",
         "postcss-preset-env": "^7.8.3",
         "postcss-simple-vars": "^7.0.1",
-        "prettier": "^3.3.3",
-        "qunit": "^2.22.0",
+        "prettier": "^3.4.2",
+        "qunit": "^2.24.1",
         "qunit-dom": "^2.0.0",
         "recast": "^0.23.9",
         "stylelint": "^15.11.0",
         "stylelint-config-standard": "^34.0.0",
         "stylelint-prettier": "^4.1.0",
-        "tailwindcss": "^3.4.10",
-        "tracked-built-ins": "^3.3.0",
-        "webpack": "^5.94.0"
+        "tailwindcss": "^3.4.17",
+        "tracked-built-ins": "^3.4.0",
+        "webpack": "^5.97.1"
     },
     "engines": {
         "node": ">= 18"
     },
     "ember": {
         "edition": "octane"
-    },
-    "pnpm": {
-        "overrides": {
-            "@fleetbase/ember-core": "latest",
-            "@fleetbase/ember-ui": "latest",
-            "@fleetbase/fleetops-data": "latest"
-        }
     },
     "prettier": {
         "trailingComma": "es5",
@@ -157,5 +150,10 @@
                 }
             }
         ]
+    },
+    "pnpm": {
+        "patchedDependencies": {
+            "ember-gridstack@4.0.0": "../packages/ember-ui/patches/ember-gridstack@4.0.0.patch"
+        }
     }
 }

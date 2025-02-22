@@ -87,6 +87,8 @@ Router.map(function () {
             path: 'storefront'
         });
     });
+
+    // catch all route
     this.route('catch', { path: '/*' });
 
     this.mount('@fleetbase/customer-portal-engine', {

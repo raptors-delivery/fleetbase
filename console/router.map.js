@@ -62,5 +62,7 @@ Router.map(function () {
             });
         });
     });
+
+    // catch all route
     this.route('catch', { path: '/*' });
 });

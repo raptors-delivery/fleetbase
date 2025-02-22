@@ -1,0 +1,4 @@
+packages:
+    - '../packages/*'
+catalog:
+    broccoli-funnel: 3.0.8

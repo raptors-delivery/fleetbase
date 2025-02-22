@@ -15,6 +15,10 @@ export default {
     },
     number: {
         compact: { notation: 'compact' },
+        EGP: {
+            style: 'currency',
+            currency: 'EGP',
+        },
         EUR: {
             style: 'currency',
             currency: 'EUR',
@@ -22,10 +26,6 @@ export default {
         USD: {
             style: 'currency',
             currency: 'USD',
-        },
-        EGP: {
-            style: 'currency',
-            currency: 'EGP',
         },
     },
 };

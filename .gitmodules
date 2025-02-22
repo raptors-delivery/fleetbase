@@ -5,7 +5,7 @@
 [submodule "packages/storefront"]
 	path = packages/storefront
 	url = git@github.com:raptors-delivery/storefront.git
-	branch = main
+	branch = raptors
 [submodule "packages/pallet"]
 	path = packages/pallet
 	url = git@github.com:raptors-delivery/pallet.git
@@ -17,11 +17,11 @@
 [submodule "packages/ember-core"]
 	path = packages/ember-core
 	url = git@github.com:raptors-delivery/ember-core.git
-	branch = main
+	branch = raptors
 [submodule "packages/ember-ui"]
 	path = packages/ember-ui
 	url = git@github.com:raptors-delivery/ember-ui.git
-	branch = main
+	branch = raptors
 [submodule "packages/iam-engine"]
 	path = packages/iam-engine
 	url = git@github.com:raptors-delivery/iam-engine.git
@@ -36,7 +36,7 @@
 [submodule "packages/fleetops-data"]
 	path = packages/fleetops-data
 	url = git@github.com:raptors-delivery/fleetops-data.git
-	branch = main
+	branch = raptors
 [submodule "docs"]
 	path = docs
 	url = git@github.com:fleetbase/docs.git
