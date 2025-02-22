@@ -76,23 +76,8 @@ Router.map(function () {
             as: 'iam',
             path: 'iam'
         });
-
-        this.mount('@fleetbase/registry-bridge-engine', {
-            as: 'extensions',
-            path: 'extensions'
-        });
-
-        this.mount('@fleetbase/storefront-engine', {
-            as: 'storefront',
-            path: 'storefront'
-        });
     });
 
     // catch all route
     this.route('catch', { path: '/*' });
-
-    this.mount('@fleetbase/customer-portal-engine', {
-        as: 'customer-portal',
-        path: 'customer-portal'
-    });
 });

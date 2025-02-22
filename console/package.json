@@ -36,8 +36,6 @@
         "@fleetbase/fleetops-engine": "workspace:*",
         "@fleetbase/iam-engine": "workspace:*",
         "@fleetbase/leaflet-routing-machine": "^3.2.16",
-        "@fleetbase/registry-bridge-engine": "^0.0.18",
-        "@fleetbase/storefront-engine": "workspace:*",
         "@fortawesome/ember-fontawesome": "^2.0.0",
         "ember-changeset": "^4.1.2",
         "ember-changeset-validations": "^4.1.1",
