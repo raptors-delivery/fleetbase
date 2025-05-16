@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0a328da740b87df6c8de79048d999e9",
+    "content-hash": "3f2c40099fb5c93c9fb002fd047e2175",
     "packages": [
         {
             "name": "appstract/laravel-opcache",
@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.343.10",
+            "version": "3.343.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "473d632d03a78b19f9f75a2126c5ba8c21f09346"
+                "reference": "d4b21990410d023e9c5303487d3248e8d7c8c2b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/473d632d03a78b19f9f75a2126c5ba8c21f09346",
-                "reference": "473d632d03a78b19f9f75a2126c5ba8c21f09346",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d4b21990410d023e9c5303487d3248e8d7c8c2b6",
+                "reference": "d4b21990410d023e9c5303487d3248e8d7c8c2b6",
                 "shasum": ""
             },
             "require": {
@@ -215,9 +215,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.343.10"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.343.12"
             },
-            "time": "2025-05-13T18:09:50+00:00"
+            "time": "2025-05-15T18:14:32+00:00"
         },
         {
             "name": "aws/aws-sdk-php-laravel",
@@ -2529,11 +2529,11 @@
         },
         {
             "name": "fleetbase/core-api",
-            "version": "1.6.4",
+            "version": "1.6.5",
             "dist": {
                 "type": "path",
                 "url": "../packages/core-api",
-                "reference": "132008147a71b5648d0424a023d4d873c8f7f0c8"
+                "reference": "d31e87060fa56b1dce9b46ce26e25b579290af97"
             },
             "require": {
                 "aws/aws-sdk-php-laravel": "^3.7",
@@ -2644,11 +2644,11 @@
         },
         {
             "name": "fleetbase/fleetops-api",
-            "version": "0.6.7",
+            "version": "0.6.8",
             "dist": {
                 "type": "path",
                 "url": "../packages/fleetops",
-                "reference": "c8e38d236ec0ad5e118e3b3a4bfe529f1f22dc35"
+                "reference": "ec31cc9a0b221beb79b7378f021f11156f970641"
             },
             "require": {
                 "barryvdh/laravel-dompdf": "^3.1",
@@ -3990,16 +3990,16 @@
         },
         {
             "name": "google/protobuf",
-            "version": "v4.30.2",
+            "version": "v4.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "a4c4d8565b40b9f76debc9dfeb221412eacb8ced"
+                "reference": "d59e31ce4bf0e4b48728e90c4d880839edb5be07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/a4c4d8565b40b9f76debc9dfeb221412eacb8ced",
-                "reference": "a4c4d8565b40b9f76debc9dfeb221412eacb8ced",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/d59e31ce4bf0e4b48728e90c4d880839edb5be07",
+                "reference": "d59e31ce4bf0e4b48728e90c4d880839edb5be07",
                 "shasum": ""
             },
             "require": {
@@ -4028,9 +4028,9 @@
                 "proto"
             ],
             "support": {
-                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.30.2"
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.31.0"
             },
-            "time": "2025-03-26T18:01:50+00:00"
+            "time": "2025-05-14T16:17:23+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -5733,16 +5733,16 @@
         },
         {
             "name": "laravel/octane",
-            "version": "v2.9.2",
+            "version": "v2.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/octane.git",
-                "reference": "c9ea063a705411019f67501655c0f82960bd6822"
+                "reference": "8278bdb3ae7a9a7380841e18e9cf52d909502647"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/octane/zipball/c9ea063a705411019f67501655c0f82960bd6822",
-                "reference": "c9ea063a705411019f67501655c0f82960bd6822",
+                "url": "https://api.github.com/repos/laravel/octane/zipball/8278bdb3ae7a9a7380841e18e9cf52d909502647",
+                "reference": "8278bdb3ae7a9a7380841e18e9cf52d909502647",
                 "shasum": ""
             },
             "require": {
@@ -5819,7 +5819,7 @@
                 "issues": "https://github.com/laravel/octane/issues",
                 "source": "https://github.com/laravel/octane"
             },
-            "time": "2025-05-05T01:48:18+00:00"
+            "time": "2025-05-14T14:05:50+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -11115,16 +11115,16 @@
         },
         {
             "name": "spatie/laravel-permission",
-            "version": "6.17.0",
+            "version": "6.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-permission.git",
-                "reference": "02ada8f638b643713fa2fb543384738e27346ddb"
+                "reference": "3c05f04d12275dfbe462c8b4aae3290e586c2dde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/02ada8f638b643713fa2fb543384738e27346ddb",
-                "reference": "02ada8f638b643713fa2fb543384738e27346ddb",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/3c05f04d12275dfbe462c8b4aae3290e586c2dde",
+                "reference": "3c05f04d12275dfbe462c8b4aae3290e586c2dde",
                 "shasum": ""
             },
             "require": {
@@ -11186,7 +11186,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-permission/issues",
-                "source": "https://github.com/spatie/laravel-permission/tree/6.17.0"
+                "source": "https://github.com/spatie/laravel-permission/tree/6.18.0"
             },
             "funding": [
                 {
@@ -11194,7 +11194,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-08T15:06:14+00:00"
+            "time": "2025-05-14T03:32:23+00:00"
         },
         {
             "name": "spatie/laravel-responsecache",
