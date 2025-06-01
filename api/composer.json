@@ -41,6 +41,10 @@
         {
             "type": "composer",
             "url": "https://registry.fleetbase.io"
+        },
+        {
+            "type": "path",
+            "url": "../packages/fleetops/"
         }
     ],
     "autoload": {
@@ -95,7 +99,7 @@
         }
     },
     "config": {
-        "secure-http": false, 
+        "secure-http": false,
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
